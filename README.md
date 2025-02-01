@@ -16,10 +16,11 @@ This repository contains the automated test scripts for the Wise platform. The t
 3. Driver dependencies are already available in the project folder, so there is no need to install them separately.
 
 **Setup Instructions**
-1. Navigate to the Project Directory
-2. mvn clean install
-3. mvn test
-4. Email Reports  - Once the tests are executed, email reports will be generated under test-output folder.
+1. Clone this repo - git clone https://github.com/Issac1809/Automated-Testing-for-Wise-Staging-Environment.git
+2. Navigate to the Project Directory
+3. mvn clean install
+4. mvn test
+5. Email Reports  - Once the tests are executed, email reports will be generated under test-output folder.
 
 Or
 
