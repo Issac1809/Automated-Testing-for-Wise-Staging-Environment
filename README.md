@@ -1,4 +1,5 @@
 **Wise Staging Environment Automation Testing Overview**
+
 This repository contains the automated test scripts for the Wise platform. The tests cover login, classroom navigation, session scheduling and session validation.
 
 **Technology Stack**
