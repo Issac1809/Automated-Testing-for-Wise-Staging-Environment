@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing of Wise Staging Environment">
+<!--    parallel="tests" thread-count="2" verbose="1"-->
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+    </listeners>
+
+    <test name="Login Test">
+        <classes>
+            <class name="com.classes.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Open Classroom Test">
+        <classes>
+            <class name="com.classes.OpenClassroomTest"/>
+        </classes>
+    </test>
+
+    <test name="Schedule Session Test">
+        <classes>
+            <class name="com.classes.SessionScheduleTest"/>
+        </classes>
+    </test>
+
+</suite>
